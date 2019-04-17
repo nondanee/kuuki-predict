@@ -1,0 +1,5 @@
+requests
+psycopg2-binary
+Flask
+gunicorn
+sklearn

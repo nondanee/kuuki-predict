@@ -1,0 +1,19 @@
+{
+  "name": "kuuki",
+  "description": "An api server provides chinese cities' air quality data",
+  "keywords": [
+    "aqi",
+    "air",
+    "quality",
+    "pollution"
+  ],
+  "website": "https://github.com/nondanee/kuuki-heroku",
+  "repository": "https://github.com/nondanee/kuuki-heroku",
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "scheduler:standard"
+  ],
+  "scripts": {
+    "postdeploy": "python manage.py init"
+  }
+}
